@@ -4,19 +4,14 @@
 }
 
 .mainDiv {
-      /* border: 2px solid ; */
+      border: 2px solid ;
       width: 350px;
+      display: flex;
+      justify-content: space-between;
       margin: auto;
 }
 
 
-.form {
-      height: 200px;
-      display: grid;
-      grid-template-columns: 1fr;
-      margin: auto;
-      gap: 25px;
-}
 
 
 .inputSection {
@@ -25,24 +20,5 @@
       border-radius: 50px;
 }
 
-.btn {
-      padding: 1px 30px;
-      font-size: 20px;
-      border-radius: 50px;
-      background-color: rgb(241, 3, 154);
-      color: white;
-      border: none;
-}
 
-.forgot {
-      color: rgb(241, 3, 154);
-      float: right;
-      margin-top: 20px;
-}
 
-.logo{
-      border-radius: 100%;
-      padding: 10px;
-      background-color: white;
-      box-shadow: rgba(177, 181, 183, 0.253) 0px 8px 24px;
-}

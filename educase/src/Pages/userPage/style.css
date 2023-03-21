@@ -1,0 +1,80 @@
+* {
+      padding: 0%;
+      margin: 0%;
+      text-decoration: none;
+}
+
+.form {
+      /* border: 2px solid; */
+      width: 300px;
+      display: grid;
+      grid-template-columns: 1fr;
+      margin: 30px auto;
+      gap: 25px;
+}
+
+
+.btnSection {
+      /* border: 2px solid ; */
+      width: 350px;
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+}
+
+.userbtn {
+      outline: none;
+      border: none;
+      width: 300px;
+      height: 40px;
+      font-size: 20px;
+      background-color: white;
+}
+
+
+.inputSection {
+      width: 240px;
+      height: 40px;
+      padding: 1px 30px;
+      font-size: 20px;
+      border-radius: 50px;
+}
+
+#btn {
+      width: 300px;
+      background-color: rgb(241, 3, 154);
+      color: white;
+      border: none;
+}
+
+
+
+.forgot {
+      color: rgb(241, 3, 154);
+      text-align: right;
+}
+
+.logo {
+      border-radius: 100%;
+      padding: 10px;
+      background-color: white;
+      box-shadow: rgba(172, 16, 16, 0.218) 0px 11px 20px;
+      margin-right: 15px;
+
+}
+
+.active {
+      border-bottom: 3px solid #E70B89;
+      font: normal normal bold 20px Roboto;
+}
+
+.headerText {
+      text-align: center;
+      font: normal normal normal 14px Roboto;
+      max-width: 330px;
+      height: 52px;
+      color: #1A1A1A;
+      margin: auto;
+      margin-top: 15px;
+}
