@@ -30,6 +30,7 @@
       height: 40px;
       font-size: 20px;
       background-color: white;
+      cursor: pointer;
 }
 
 
@@ -46,6 +47,7 @@
       background-color: rgb(241, 3, 154);
       color: white;
       border: none;
+      /* cursor: pointer; */
 }
 
 

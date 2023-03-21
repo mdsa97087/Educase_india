@@ -1,6 +1,6 @@
 import React from "react";
 
-function Footer() {
+function Footer({ signUpBtn }) {
   return (
     <div>
       <img
@@ -22,15 +22,15 @@ function Footer() {
       <br />
       <p className="">
         Don't have an Account?
-        <a href="">
-          <span
-            style={{
-              color: "rgb(241, 3, 154)",
-            }}
-          >
-            Create new now!
-          </span>
-        </a>
+        <span
+          onClick={signUpBtn}
+          style={{
+            color: "rgb(241, 3, 154)",
+            cursor: "pointer",
+          }}
+        >
+          Create new now!
+        </span>
       </p>
       <br />
       <p className="">
@@ -38,6 +38,7 @@ function Footer() {
         <span
           style={{
             color: "rgb(241, 3, 154)",
+            cursor: "pointer",
           }}
         >
           Term & Conditions

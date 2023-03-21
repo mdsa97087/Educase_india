@@ -5,7 +5,6 @@ import Login_Sugnup from "./Pages/userPage/Login_Sugnup";
 function App() {
   return (
     <div className="App">
-      
       <Login_Sugnup />
     </div>
   );

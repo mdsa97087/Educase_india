@@ -6,9 +6,16 @@ import "./style.css";
 function Login_Sugnup() {
   const [login, setLogin] = useState(true);
 
+  const signUpBtn = () => {
+    setLogin(false);
+  };
+
   return (
     <div>
+      {/*  ---------------       Header Section     --------------------- */}
       <Header />
+
+      {/*   ----------   LOGIN SIGNUP CELECTION  BUTTON     -------- */}
       <div className="btnSection">
         <button
           type="button"
@@ -20,11 +27,13 @@ function Login_Sugnup() {
         <button
           type="button"
           className={!login ? "userbtn active" : "userbtn"}
-          onClick={() => setLogin(false)}
+          onClick={signUpBtn}
         >
           Signup
         </button>
       </div>
+
+      {/*   --------         FORM SECTION       --------- */}
       <form className="form">
         <input
           className="inputSection"
@@ -53,7 +62,8 @@ function Login_Sugnup() {
         )}
         <p className="">{login ? "or login with" : "or signup with"}</p>
       </form>
-      <Footer />
+      {/*   -----------------    Footer Section       --------------  */}
+      <Footer signUpBtn={signUpBtn} />
     </div>
   );
 }
