@@ -36,23 +36,26 @@ function Login_Sugnup() {
       {/*   --------         FORM SECTION       --------- */}
       <form className="form">
         <input
+          required
           className="inputSection"
           type="email"
           placeholder="Email Address"
         />
         <input
+          required
           className="inputSection"
           type="password"
           placeholder="Password"
         />
         {!login && (
           <input
+            required
             className="inputSection"
             type="password"
             placeholder="Confirm Password"
           />
         )}
-        <button type="button" id="btn" className="inputSection">
+        <button type="submit" id="btn" className="inputSection">
           {login ? "LOGIN" : "SIGNUP"}
         </button>
         {login && (
