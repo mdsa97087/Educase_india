@@ -3,21 +3,27 @@ import React from "react";
 function Footer({ signUpBtn }) {
   return (
     <div>
-      <img
-        className="logo"
-        src="https://cdn.iconscout.com/icon/free/png-256/google-1772223-1507807.png?f=avif&w=30"
-        alt="google"
-      />
-      <img
-        className="logo"
-        src="https://cdn.iconscout.com/icon/free/png-256/facebook-263-721950.png?f=avif&w=30"
-        alt="facebook"
-      />
-      <img
-        className="logo"
-        src="https://cdn.iconscout.com/icon/free/png-256/twitter-241-721979.png?f=avif&w=30"
-        alt="twitter"
-      />
+      <a href="">
+        <img
+          className="logo"
+          src="https://cdn.iconscout.com/icon/free/png-256/google-1772223-1507807.png?f=avif&w=30"
+          alt="google"
+        />
+      </a>
+      <a href="">
+        <img
+          className="logo"
+          src="https://cdn.iconscout.com/icon/free/png-256/facebook-263-721950.png?f=avif&w=30"
+          alt="facebook"
+        />
+      </a>
+      <a href="">
+        <img
+          className="logo"
+          src="https://cdn.iconscout.com/icon/free/png-256/twitter-241-721979.png?f=avif&w=30"
+          alt="twitter"
+        />
+      </a>
       <br />
       <br />
       <p className="">
